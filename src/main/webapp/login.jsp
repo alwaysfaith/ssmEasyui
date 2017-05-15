@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>福建省出版综合质量评估系统</title>
+<title>后台管理系统</title>
 <%@ include file="../admin/common.jsp" %>
 
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/static/css/bootstrap.min.css" />
@@ -134,7 +134,7 @@ html,body {
 		<div class="box">
 		<div class="login-box">
 			<div class="login-title text-center">
-				<h1>出版综合质量评估系统</h1>
+				<h1>后台管理系统</h1>
 			</div>
 			<div class="login-content ">
 			<div class="form" >
@@ -144,7 +144,7 @@ html,body {
 					<div class="col-xs-12  ">
 						<div class="input-group">
 							<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-							<input type="text" id="loginName" name="loginName" value="${user.loginName }" class="form-control" placeholder="用户名">
+							<input type="text" id="loginName" name="loginName" value="${user.loginName }" class="form-control" placeholder="用户名" />
 							
 						</div>
 					</div>
@@ -153,7 +153,7 @@ html,body {
 					<div class="col-xs-12  ">
 						<div class="input-group">
 							<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-							<input type="password" id="password" name="password" value="${user.password }" class="form-control" placeholder="密码">
+							<input type="password" id="password" name="password" value="${user.password }" class="form-control" placeholder="密码" />
 							
 						</div>
 					</div>

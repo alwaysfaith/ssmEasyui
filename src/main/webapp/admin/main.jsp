@@ -4,7 +4,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>福建省出版综合质量评估系统</title>
+    <title>后台管理系统</title>
     <!-- 导入共通样式页面 -->
 	<%@ include file="common.jsp"%>
 	
@@ -54,13 +54,13 @@
         </span>
         <span style="padding-left:10px; font-size: 16px; ">
         	<img src="${pageContext.request.contextPath}/static/images/blocks.gif" width="20" height="20" align="absmiddle" />
-        	福建省出版综合质量评估系统
+        	后台管理系统
         </span>
     </div>
     
     <!-- 底部 -->
     <div region="south" split="true" style="height: 30px; background: #D2E0F2; ">
-        <div class="footer">主办单位:福建省新闻出版广电局</div>
+        <div class="footer">后台管理系统</div>
     </div>
     
     <!--  导航 -->
@@ -72,7 +72,7 @@
     <div id="mainPanle" region="center" style="background: #eee; overflow-y:hidden">
         <div id="tabs" class="easyui-tabs"  fit="true" border="false" >
 			<div title="欢迎使用" style="padding:20px;overflow:hidden; color:red; " style="background: #e7f7ff;" >
-				<h1>欢迎登陆福建省出版综合质量评估系统！</h1>
+				<h1>欢迎登陆后台管理系统！</h1>
 			</div>
 		</div>
     </div>
