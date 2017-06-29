@@ -13,7 +13,7 @@ public class UserServiceImpl extends BaseServiceImpl<UserMapper, User, Long> imp
 
     @Override
     public User selectByLoginName(String loginName) {
-        return baseMapper.selectByLoginName(loginName);
+        return mapper.selectByLoginName(loginName);
     }
 	
 

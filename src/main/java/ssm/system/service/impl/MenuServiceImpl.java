@@ -17,12 +17,12 @@ public class MenuServiceImpl extends BaseServiceImpl<MenuMapper, Menu, Long> imp
 
     @Override
     public List<Menu> selectListByIds(List<Long> ids) {
-        return baseMapper.selectListByIds(ids);
+        return mapper.selectListByIds(ids);
     }
 
     @Override
     public List<Menu> selectListByMap(Map<String, Object> map) {
-        return baseMapper.selectListByMap(map);
+        return mapper.selectListByMap(map);
     }
 
 

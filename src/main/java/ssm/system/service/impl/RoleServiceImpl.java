@@ -15,12 +15,12 @@ public class RoleServiceImpl extends BaseServiceImpl<RoleMapper, Role, Long> imp
 
     @Override
     public List<Role> selectListByIds(List<Long> ids) {
-        return baseMapper.selectListByIds(ids);
+        return mapper.selectListByIds(ids);
     }
 
     @Override
     public List<Role> selectVaildList() {
-        return baseMapper.selectVaildList();
+        return mapper.selectVaildList();
     }
 
 	
